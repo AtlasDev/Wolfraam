@@ -1,10 +1,13 @@
+body {
+    margin: 0 3vw;
+}
+
 #title {
     height: 6vh;
 }
 
 #title h3 {
     font-size: 3vh;
-    text-transform: uppercase;
     font-weight: lighter;
     margin-left: 6vw;
 }
@@ -25,20 +28,69 @@
     font-style: italic;
 }
 
-.subText {
-    bottom: 0;
-    color: #fff;
-    position: absolute;
-    margin-left: 5vw;
+.project {
+    height: 25vh;
 }
 
-.subtitle {
+.project > img {
+    right: 10vw;
+    height: 100%;
+    position: absolute;
+}
+
+#footer {
+    height: 4vh;
+    text-align: center;
+    padding: 1vh 0;
+}
+
+#footer > span {
+    margin: 0 3vw;
+    font-weight: bolder;
+}
+
+#footer > span > a {
+    color: #333;
+}
+
+.subTitle  {
     text-transform: uppercase;
+    font-size: 2.5vh
+}
+
+.subText {
+    bottom: 2vh;
+    position: absolute;
+    margin-left: 4vw;
+}
+
+.subText > a {
+    color: #fff;
+}
+
+.subText > p {
+    color: #fff;
 }
 
 .social {
-    color: #000;
+    color: #333;
     bottom: 0px;
     line-height: 8vh;
     letter-spacing: 5px;
+}
+
+.yellow {
+    background-color: rgb(223, 125, 9);
+}
+
+.blue {
+    background-color: rgb(34, 50, 154);
+}
+
+.grey {
+    background-color: rgb(98, 98, 57);
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
 }
