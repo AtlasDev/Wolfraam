@@ -1,5 +1,12 @@
 #title {
-    height: 8vh;
+    height: 6vh;
+}
+
+#title h3 {
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-left: 6vw;
 }
 
 #heading {
@@ -8,9 +15,25 @@
     height: 80vh;
 }
 
-#heading < #headText {
-    font-size: 20vh;
+#heading > #headText {
+    font-size: 5vh;
     color: rgb(177, 198, 196);
+    margin: 0 15vw;
+    margin-top: 30vh;
+    max-width: 70vw;
+    text-align: center;
+    font-style: italic;
+}
+
+.subText {
+    bottom: 0;
+    color: #fff;
+    position: absolute;
+    margin-left: 5vw;
+}
+
+.subtitle {
+    text-transform: uppercase;
 }
 
 .social {
