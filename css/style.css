@@ -1,0 +1,21 @@
+#title {
+    height: 8vh;
+}
+
+#heading {
+    background-image: url("../assets/img/heading.jpg");
+    background-color: rgb(80, 16, 125);
+    height: 80vh;
+}
+
+#heading < #headText {
+    font-size: 20vh;
+    color: rgb(177, 198, 196);
+}
+
+.social {
+    color: #000;
+    bottom: 0px;
+    line-height: 8vh;
+    letter-spacing: 5px;
+}
